@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.countdown span {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  direction: rtl;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding-top: 0; /* אל תשתמש בערך שלילי */
+}
+
+
+h1 {
+  font-size: 15.8em;
+  margin-top: 0;        /* הוספנו כדי להצמיד למעלה */
+  margin-bottom: 60px; /* היה 40px - עכשיו יותר רווח */
+  font-family: 'Brush Script MT', cursive;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.countdown div p {
+  font-size: 3em;
+  margin-top: 10px;
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: 1px;
+  color: #ffe;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+.number {
+  font-family: 'Titan One', sans-serif;
+  font-size: 6em;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+
+  /* מסגרת צבעונית ורקע חלקי */
+  border: 4px solid #efa608; /* ורוד בולט */
+  background-color: rgba(197, 225, 9, 0.3); 
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+
+.separator {
+  font-size: 6em;
+  line-height: 1;
+  color: white;
+  padding: 0 10px;
+  vertical-align: middle;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+}
